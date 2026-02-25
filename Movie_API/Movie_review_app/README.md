@@ -9,3 +9,8 @@ Week 2 documentation:
 - In week 2 we have added a User model to help with allowing users to use there username, email, password to access the movie_review_api.
 - We created a Serializer to help in changing the format of our models to normal json file that can be readable.
 - We added a rest_framework app to help in building web APIs.
+
+Week 3 documentation:
+- We were able to modify the models and remove unnessesary models created in the above tasks and remained with the appropriate model.
+- Created viewsets for the model that was created and added a queryset to access all data in the database.
+- Next steps we are going to work on authentication, permissions and setting up urls for the user to access our API.
