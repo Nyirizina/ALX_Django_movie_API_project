@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'rest_framework.permissions',
-    'rest_framework.permissions.IsAuthenticated',
+    
 
 ]
 

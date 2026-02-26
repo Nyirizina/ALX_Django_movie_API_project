@@ -14,3 +14,8 @@ Week 3 documentation:
 - We were able to modify the models and remove unnessesary models created in the above tasks and remained with the appropriate model.
 - Created viewsets for the model that was created and added a queryset to access all data in the database.
 - Next steps we are going to work on authentication, permissions and setting up urls for the user to access our API.
+
+Week 4 documentation:
+- Added permissions so that a user can only update or delete their own views.
+- In views we called our previously created permissions so that a user  can be able to  update or delete their own views, and also we have a modelviewset that will help in logic of all CRUD operations
+- finally we added a Default router that will help to automatically generate necessary RESTful routes.
