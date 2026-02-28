@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from .models import Reviews, User
+from .models import Reviews
+from django.contrib.auth.models import User
 from rest_framework import viewsets, permissions, filters
 from .Serializers import ReviewsSerializer, UserSerializer
 from rest_framework import generics
@@ -15,8 +16,8 @@ class ReviewsViewSet(viewsets.ModelViewSet):
     serializer_class = ReviewsSerializer
     permission_classes = [permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly]
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter, filters.SearchFilter]
-    ordering_fields = ['rating', 'created_at']
-    search_fields = ['movie_title', 'content']
+    ordering_fields = ['review_score', 'review_created_at']
+    search_fields = ['movie_title', 'content_review']
 
     
 
