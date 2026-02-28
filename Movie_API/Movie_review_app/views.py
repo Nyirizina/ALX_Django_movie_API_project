@@ -3,7 +3,6 @@ from .models import Reviews
 from django.contrib.auth.models import User
 from rest_framework import viewsets, permissions, filters
 from .Serializers import ReviewsSerializer, UserSerializer
-from rest_framework import generics
 from .permissions import IsOwnerOrReadOnly
 from django_filters.rest_framework import DjangoFilterBackend
 

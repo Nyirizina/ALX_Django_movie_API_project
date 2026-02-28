@@ -23,3 +23,4 @@ Week 4 documentation:
 Week 5 documentation:
 - after creating our app we added filtering to help a user on being able to search or order their reviews based on rating, movie_title, content.
 - In the last week we were able to finalize our project and now our user can manage reviews for movies by adding, updating, deleting, and viewing reviews.
+- This project was a good start for me in the coding career and I have learned a lot throught the project and will continue learning to become a fullstack developer.
