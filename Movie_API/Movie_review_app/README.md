@@ -19,3 +19,7 @@ Week 4 documentation:
 - Added permissions so that a user can only update or delete their own views.
 - In views we called our previously created permissions so that a user  can be able to  update or delete their own views, and also we have a modelviewset that will help in logic of all CRUD operations
 - finally we added a Default router that will help to automatically generate necessary RESTful routes.
+
+Week 5 documentation:
+- after creating our app we added filtering to help a user on being able to search or order their reviews based on rating, movie_title, content.
+- In the last week we were able to finalize our project and now our user can manage reviews for movies by adding, updating, deleting, and viewing reviews.
